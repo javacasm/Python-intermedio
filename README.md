@@ -3,6 +3,8 @@
 En este curso vamos seguir avanzando en la programación de Python, a partir de los conocimientos básicos del curso inicial.
 
 0. Repaso de python
+
+Indentación
 colecciones: ordenaciones
 funciones: argumentos con nombre y valores por defecto
 
