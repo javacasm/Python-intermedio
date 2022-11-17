@@ -6,7 +6,9 @@ colecciones
 
 # Sesión 1
 Colab
-gráficos
+Gráficos
+Entornos virtuales
+Pandas
 
 # Sesión 2
 pygame
