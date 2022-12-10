@@ -36,7 +36,9 @@ y_ball = random.randrange(0,alto)
 vx_ball = random.randrange(5,10)
 vy_ball = random.randrange(5,10)
 
-miImagen = pygame.image.load('./images/python-logo.png')
+miImagen_orig = pygame.image.load('./images/python-logo.png')
+
+miImagen = pygame.transform.scale(miImagen_orig,(50,50))
 
 radio_ball = 20
 
