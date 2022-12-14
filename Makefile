@@ -1,7 +1,7 @@
 
 S4  = "4. Programación de aplicaciones de escritorio.docx"
 S5  = "5. Automatización de tareas del sistema.docx"
-
+SA  = "Apéndice. Uso de Git y Github.docx"
 
 
 4:
@@ -26,3 +26,14 @@ S5  = "5. Automatización de tareas del sistema.docx"
 		5.0.Automatizacion.md \
 		5.1.scheduler.md \
 		5.2.web_scrapping_beautifulsoup.md
+
+A:
+	pandoc --pdf-engine=xelatex   \
+		-V papersize:a4paper    \
+		--template=./LaTeX_ES.latex    \
+		--reference-doc=plantilla-intermedio.docx \
+		-o  $(SA)  \
+		Cabecera.md        \
+		Cabecera_latex.md \
+		A.git-github.md
+		

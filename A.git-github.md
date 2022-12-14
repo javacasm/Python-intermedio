@@ -6,7 +6,7 @@ El control de versiones permite volver a versiones anteriores del código si es 
 
 Además, el control de versiones permite realizar pruebas y experimentos en una copia del código (**branch**) sin afectar la versión principal (**main**), lo que facilita la innovación y el desarrollo de nuevas funcionalidades.
 
-También podemos mezclar (merge) nuestros cambios con los de otros desarrollaremos, para lo que git es capaz de detectar los distintos cambios y ver cómo se pueden mezclar sin que se pierdan ninguno de ellos. A veces pueden ocurrir conflictos, cuando el sistema no sabe realizar la mezcla de manera automática. En ese caso el desarrollador ha de proponer los cambios propuestos.
+También podemos mezclar (merge) nuestros cambios con los de otros desarrolladores, para lo que git es capaz de detectar los distintos cambios y ver cómo se pueden mezclar sin que se pierda ninguno de ellos. A veces pueden ocurrir conflictos, cuando el sistema no sabe realizar la mezcla de manera automática. En ese caso el desarrollador ha de proponer los cambios propuestos.
 
 En resumen, el control de versiones es una herramienta esencial para el desarrollo de software en equipo y permite una gestión eficiente de cambios en los proyectos.
 
@@ -24,7 +24,7 @@ En 2008, se creó GitHub, una plataforma en línea para alojar proyectos utiliza
 
 Git sigue siendo una de las herramientas más utilizadas por desarrolladores de software y es compatible con una amplia variedad de lenguajes de programación y sistemas operativos.
 
-## Diferenicias entre git y github
+## Diferencias entre git y github
 
 Git es un sistema de control de versiones que permite a los desarrolladores de software llevar un registro de los cambios realizados en sus proyectos y colaborar con otros desarrolladores de manera eficiente.
 
@@ -83,15 +83,15 @@ Para resolver conflictos con Git, siga los siguientes pasos:
 
 1. Realice los cambios en el archivo de código que desee.
 
-1. Realice un commit de los cambios utilizando un mensaje claro y descriptivo.
+1. Realice un **commit** de los cambios utilizando un mensaje claro y descriptivo.
 
-1. Realice un push del código al repositorio remoto. Si se genera un conflicto, Git mostrará un mensaje de error y detendrá el proceso.
+1. Realice un **push** del código al repositorio remoto. Si se genera un conflicto, Git mostrará un mensaje de error y detendrá el proceso.
 
 1. Abra el archivo donde se generó el conflicto y busque las líneas que comienzan con "<<<<<<<" y ">>>>>>>". Estas líneas marcan el inicio y el fin del conflicto.
 
 1. Elimine las líneas que marcan el inicio y el fin del conflicto y resuelva el conflicto de manera manual. Por ejemplo, si se trata de un cambio en una línea de código, puede elegir qué versión utilizar
 
-1. Realice un commit y un push del archivo resuelto para enviar los cambios al repositorio remoto.
+1. Realice un **commit** y un **push** del archivo resuelto para enviar los cambios al repositorio remoto.
 
 1. Verifique que el conflicto ha sido resuelto correctamente en el repositorio remoto.
 
@@ -100,7 +100,7 @@ En resumen, resolver conflictos con Git requiere un proceso manual que implica i
 
 ## Autentificación en github
 
-Para modificar nuestros repositorios en github necesitamos autintificarnos con nuestra cuenta. GitHub ofrece dos opciones para conectarse a un repositorio remoto: HTTP y SSH.
+Para modificar nuestros repositorios en github necesitamos autentificarnos con nuestra cuenta. GitHub ofrece dos opciones para conectarse a un repositorio remoto: HTTP y SSH.
 
 La opción HTTP utiliza el protocolo HTTP para comunicarse con el repositorio remoto y requiere que se ingrese el nombre de usuario y la contraseña de la cuenta de GitHub cada vez que se realice un push o un pull del repositorio.
 
@@ -136,9 +136,9 @@ GitHub ofrece la posibilidad de crear repositorios públicos o privados.
 
 Un repositorio público es accesible por cualquier persona y puede ser clonado y utilizado libremente. Los repositorios públicos son útiles para proyectos de código abierto y para compartir código con otros desarrolladores.
 
-Un repositorio privado solo es accesible por los usuarios autorizados y requiere una invitación para ser clonado. Los repositorios privados son útiles para proyectos que deben mantenerse en privado, como proyectos comerciales o proyectos de investigación.
+Un repositorio privado sólo es accesible para los usuarios autorizados y requiere una invitación para ser clonado. Los repositorios privados son útiles para proyectos que deben mantenerse en privado, como proyectos comerciales o proyectos de investigación.
 
-En resumen, GitHub ofrece la opción de crear repositorios públicos o privados según las necesidades del proyecto. Los repositorios públicos son accesibles por cualquier persona y los repositorios privados solo son accesibles por usuarios autorizados.
+En resumen, GitHub ofrece la opción de crear repositorios públicos o privados según las necesidades del proyecto. Los repositorios públicos son accesibles para cualquier persona y los repositorios privados sólo son accesibles por usuarios autorizados.
 
 ## Recursos
 
