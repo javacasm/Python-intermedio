@@ -53,5 +53,26 @@ def suma():
         contenido = f'<html> {sumando1} + {sumando2} = {resultado}</html>'
     return contenido
 
+@app.route('/tabla')
+def tabla_sinargumento():
+    contenido = 'Debes introducir un numero valido'
+    return contenido
+
+@app.route('/tabla/<int:tabla_numero>')
+def tabla(tabla_numero = None):
+    contenido = ''
+    if tabla_numero != None:
+        cabecera = f'<html><head><title>Tabla del {tabla_numero}</title></head><body><table>'
+        tabla = ''
+        for i in range(1,11):
+            resultado = tabla_numero * i
+            fila = f'<tr> <td>{tabla_numero} x {i} </td> <td>=</td> <td> {resultado}</td></tr>'
+            tabla += fila
+        pie = '</table></body></html>'
+        contenido = cabecera + tabla + pie
+    else:
+        contenido = 'Debes introducir un numero valido'
+    return contenido
+
 if __name__ == '__main__':
     app.run(debug = True, host='0.0.0.0',port=5001)
