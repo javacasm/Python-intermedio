@@ -143,3 +143,7 @@ En resumen, GitHub ofrece la opción de crear repositorios públicos o privados 
 ## Recursos
 
 [Documentación](https://docs.github.com/es/get-started/quickstart/hello-world)
+
+[Curso de Git y Github](https://miriadax.net/curso/gestion-de-proyectos-software-con-git-y-github-3-a-edicion/) 
+
+(Gracias Rafael!!)
