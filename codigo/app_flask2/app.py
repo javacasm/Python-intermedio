@@ -61,5 +61,17 @@ def suma():
         contenido = 'Metodo no permitido'
     return contenido
 
+@app.route('/tabla/<int:numero>')
+def tabla_multiplicar(numero):
+    cabecera = f'''<html>
+                <head><title>Tabla del {numero}</title></head>
+                <body> <table> '''
+    tabla = ''
+    for i in range(1,11):
+        fila = f'<tr> <td> {numero} x {i} </td> <td> <b>=</b> </td> <td> {numero*i} </td></tr>'
+        tabla += fila
+    pie = '</table></body></html>'
+    contenido = cabecera + tabla + pie
+    return contenido
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0',port=8080)
