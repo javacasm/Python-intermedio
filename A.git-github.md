@@ -14,11 +14,7 @@ En resumen, el control de versiones es una herramienta esencial para el desarrol
 
 **Git** fue creado en 2005 por **Linus Torvalds**, el creador del sistema operativo **Linux**. La necesidad de un sistema de control de versiones eficiente surgió durante el desarrollo de Linux, ya que era necesario manejar el código de muchos desarrolladores de manera eficiente.
 
-
-
 Torvalds desarrolló Git utilizando el lenguaje de programación C y basándose en un sistema anterior llamado BitKeeper. Git se convirtió en el sistema de control de versiones utilizado por el proyecto Linux y pronto fue adoptado por otros proyectos de software libre.
-
-
 
 En 2008, se creó GitHub, una plataforma en línea para alojar proyectos utilizando Git y ofrecer herramientas colaborativas adicionales. GitHub se convirtió en una de las plataformas más populares para desarrolladores de software y en 2018 fue adquirida por Microsoft.
 
